@@ -19,7 +19,7 @@ Random Ideas:
 Towards a formalism:
 
 - define an end-user as a tool-using/subagent-using LLM, but that LLM has to `pay' for each subagent-use, which is charged in proportion to the number of tokens generated to produce the result
-- do some form of discrete search over search procedures (akin to [Archon](https://arxiv.org/abs/2409.15254)) for the `tools' or sub-routines
+- do some form of discrete search over search procedures (akin to [Archon](https://arxiv.org/abs/2409.15254)) and prompts (see [here](https://arxiv.org/abs/2305.03495)) for the `tools' or sub-routines
 - the tool-using super-agent can decide between delegation and self-generation, but the RL objective is risk-aware that self-generation may be less optimal
 
 What are the right benchmarks to tackle?
